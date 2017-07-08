@@ -63,41 +63,4 @@ public class Constants {
     public static final String CITY_LUCKNOW = "Lucknow";
 
     public static final String CITY_MUMBAI = "Mumbai";
-
-    //-----------------------------------------------------------------------------
-    // City latitudes and longitudes
-    //-----------------------------------------------------------------------------
-    public static final double AHMEDABAD_LATITUDE = 23.0225;
-
-    public static final double AHMEDABAD_LONGITUDE = 72.5714;
-
-    public static final double BANGALORE_LATITUDE = 12.9716;
-
-    public static final double BANGALORE_LONGITUDE = 77.5946;
-
-    public static final double CHENNAI_LATITUDE = 13.0827;
-
-    public static final double CHENNAI_LONGITUDE = 80.2707;
-
-    public static final double DELHI_LATITUDE = 28.6139;
-
-    public static final double DELHI_LONGITUDE = 77.2090;
-
-    public static final double HYDERABAD_LATITUDE = 17.3850;
-
-    public static final double HYDERABAD_LONGITUDE = 78.4867;
-
-    public static final double LUCKNOW_LATITUDE = 26.8467;
-
-    public static final double LUCKNOW_LONGITUDE = 80.9462;
-
-    public static final double KOLKATA_LATITUDE = 22.5726;
-
-    public static final double KOLKATA_LONGITUDE = 88.3639;
-
-    public static final double MUMBAI_LATITUDE = 19.0760;
-
-    public static final double MUMBAI_LONGITUDE = 72.8777;
-
-
 }

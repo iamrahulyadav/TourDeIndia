@@ -91,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FamousViewHolder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FamousViewHolder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/adapters/FamousViewHolder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="499">
@@ -122,6 +122,16 @@
                 <element signature="e#7663#7685#0" expanded="true" />
                 <element signature="e#7867#7889#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/utils/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1815,7 +1825,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_city_description.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/fragments/CityDescriptionFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/cardview_city_famous.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/utils/Constants.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/model/GoogleMapsLatLngMap.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/fragments/CityFamousFragment.java" />
@@ -1825,6 +1834,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/adapters/CityRecyclerAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/adapters/FamousRecyclerAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/adapters/FamousViewHolder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/utils/Constants.java" />
       </list>
     </option>
   </component>
@@ -1896,6 +1906,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TourdeIndia" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tourdeindia" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2833,14 +2865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/utils/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/utils/RecyclerViewItemClickListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -2945,6 +2969,14 @@
             <element signature="e#7663#7685#0" expanded="true" />
             <element signature="e#7867#7889#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
