@@ -91,17 +91,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FamousViewHolder.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FamousViewHolder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/adapters/FamousViewHolder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="499">
-              <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
-              <folding />
+              <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
+              <folding>
+                <element signature="e#2961#2985#0" expanded="true" />
+                <element signature="e#3169#3193#0" expanded="true" />
+                <element signature="e#3375#3397#0" expanded="true" />
+                <element signature="e#3577#3597#0" expanded="true" />
+                <element signature="e#3781#3805#0" expanded="true" />
+                <element signature="e#3987#4009#0" expanded="true" />
+                <element signature="e#4191#4213#0" expanded="true" />
+                <element signature="e#4394#4416#0" expanded="true" />
+                <element signature="e#4691#4715#0" expanded="true" />
+                <element signature="e#4899#4923#0" expanded="true" />
+                <element signature="e#5106#5128#0" expanded="true" />
+                <element signature="e#5309#5329#0" expanded="true" />
+                <element signature="e#5514#5538#0" expanded="true" />
+                <element signature="e#5721#5743#0" expanded="true" />
+                <element signature="e#5926#5948#0" expanded="true" />
+                <element signature="e#6130#6152#0" expanded="true" />
+                <element signature="e#6427#6451#0" expanded="true" />
+                <element signature="e#6636#6660#0" expanded="true" />
+                <element signature="e#6843#6865#0" expanded="true" />
+                <element signature="e#7046#7066#0" expanded="true" />
+                <element signature="e#7251#7275#0" expanded="true" />
+                <element signature="e#7458#7480#0" expanded="true" />
+                <element signature="e#7663#7685#0" expanded="true" />
+                <element signature="e#7867#7889#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FamousRecyclerAdapter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FamousRecyclerAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/adapters/FamousRecyclerAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -1793,13 +1818,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/utils/Constants.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/model/GoogleMapsLatLngMap.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/adapters/FamousViewHolder.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/fragments/CityFamousFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/managers/StorageManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/activities/MapsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/activities/LoginScreenActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/adapters/CityRecyclerAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/adapters/FamousRecyclerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/adapters/FamousViewHolder.java" />
       </list>
     </option>
   </component>
@@ -2882,19 +2907,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/adapters/FamousViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/adapters/FamousRecyclerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sarthak/tourdeindia/adapters/FamousViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
+          <folding>
+            <element signature="e#2961#2985#0" expanded="true" />
+            <element signature="e#3169#3193#0" expanded="true" />
+            <element signature="e#3375#3397#0" expanded="true" />
+            <element signature="e#3577#3597#0" expanded="true" />
+            <element signature="e#3781#3805#0" expanded="true" />
+            <element signature="e#3987#4009#0" expanded="true" />
+            <element signature="e#4191#4213#0" expanded="true" />
+            <element signature="e#4394#4416#0" expanded="true" />
+            <element signature="e#4691#4715#0" expanded="true" />
+            <element signature="e#4899#4923#0" expanded="true" />
+            <element signature="e#5106#5128#0" expanded="true" />
+            <element signature="e#5309#5329#0" expanded="true" />
+            <element signature="e#5514#5538#0" expanded="true" />
+            <element signature="e#5721#5743#0" expanded="true" />
+            <element signature="e#5926#5948#0" expanded="true" />
+            <element signature="e#6130#6152#0" expanded="true" />
+            <element signature="e#6427#6451#0" expanded="true" />
+            <element signature="e#6636#6660#0" expanded="true" />
+            <element signature="e#6843#6865#0" expanded="true" />
+            <element signature="e#7046#7066#0" expanded="true" />
+            <element signature="e#7251#7275#0" expanded="true" />
+            <element signature="e#7458#7480#0" expanded="true" />
+            <element signature="e#7663#7685#0" expanded="true" />
+            <element signature="e#7867#7889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

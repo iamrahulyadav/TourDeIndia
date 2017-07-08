@@ -30,6 +30,9 @@ class FamousViewHolder extends RecyclerView.ViewHolder {
 
     public String[] famousPlaces;
 
+    ArrayList<Uri> cityImage;
+    String cityName;
+
     FamousViewHolder(View itemView) {
 
         super(itemView);
@@ -45,21 +48,47 @@ class FamousViewHolder extends RecyclerView.ViewHolder {
         CityMap cityMap = new CityMap();
 
         // map city index to city name
-        String city_name = cityMap.getCityName(cityIndex);
+        cityName = cityMap.getCityName(cityIndex);
 
         // get arraylist of city image Uris from city index
-        ArrayList<Uri> city_image = getCityImages(cityIndex);
+        cityImage = getCityImages(cityIndex);
 
         // set city image
         Picasso.with(context)
-                .load(city_image.get(position))
+                .load(cityImage.get(position))
                 .into(famousPlaceImage);
 
         // get famous places title arraylist
         famousPlaces = context.getResources().getStringArray(R.array.famousPlaces);
 
+        // add city data to view components
+        setUpData(position);
+    }
+
+    /**
+     * Returns an arraylist of city image Uris based on city index.
+     *
+     * @return an arraylist of city image Uri
+     */
+    private ArrayList<Uri> getCityImages(int cityIndex) {
+
+        CityMap cityMap = new CityMap();
+        String city_name = cityMap.getCityName(cityIndex);
+
+        StorageManager storageManager = new StorageManager();
+
+        return storageManager.getFromSdcard(Constants.INTERNAL_STORAGE_FAMOUS_FOLDER, city_name);
+    }
+
+    /**
+     * Displays city data in view components
+     *
+     * @param position is the index of the cardView in recycler view
+     */
+    private void setUpData(int position) {
+
         if (position == 0){
-            switch (city_name) {
+            switch (cityName) {
                 case Constants.CITY_AHMEDABAD:
                     famousPlaceLabel.setText(famousPlaces[0]);
                     famousPlaceDesc.setText(R.string.ahmedabad_fam_1);
@@ -97,7 +126,7 @@ class FamousViewHolder extends RecyclerView.ViewHolder {
         }
 
         else if (position == 1){
-            switch (city_name) {
+            switch (cityName) {
                 case Constants.CITY_AHMEDABAD:
                     famousPlaceLabel.setText(famousPlaces[8]);
                     famousPlaceDesc.setText(R.string.ahmedabad_fam_2);
@@ -134,7 +163,7 @@ class FamousViewHolder extends RecyclerView.ViewHolder {
         }
 
         else if (position == 2){
-            switch (city_name) {
+            switch (cityName) {
                 case Constants.CITY_AHMEDABAD:
                     famousPlaceLabel.setText(famousPlaces[16]);
                     famousPlaceDesc.setText(R.string.ahmedabad_fam_3);
@@ -169,20 +198,5 @@ class FamousViewHolder extends RecyclerView.ViewHolder {
                     break;
             }
         }
-    }
-
-    /**
-     * Returns an arraylist of city image Uris based on city index.
-     *
-     * @return an arraylist of city image Uri
-     */
-    private ArrayList<Uri> getCityImages(int cityIndex) {
-
-        CityMap cityMap = new CityMap();
-        String city_name = cityMap.getCityName(cityIndex);
-
-        StorageManager storageManager = new StorageManager();
-
-        return storageManager.getFromSdcard(Constants.INTERNAL_STORAGE_FAMOUS_FOLDER, city_name);
     }
 }
