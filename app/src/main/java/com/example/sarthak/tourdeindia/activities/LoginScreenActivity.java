@@ -82,11 +82,13 @@ public class LoginScreenActivity extends AppCompatActivity implements View.OnCli
 
             if (username.equals(Constants.LOGIN_USERNAME) && password.equals(Constants.LOGIN_PASSWORD)){
 
+                // set value of 'loginStatus' in shared preferences to be true
                 SharedPreferences loginStatus = getSharedPreferences(Constants.MY_SHARED_PREFERENCES, MODE_PRIVATE);
                 SharedPreferences.Editor editor = loginStatus.edit();
                 editor.putBoolean(Constants.PREF_LOGIN_STATUS, true);
                 editor.apply();
 
+                // launch home screen activity
                 Intent intent = new Intent(LoginScreenActivity.this, HomeScreenActivity.class);
                 startActivity(intent);
                 finish();

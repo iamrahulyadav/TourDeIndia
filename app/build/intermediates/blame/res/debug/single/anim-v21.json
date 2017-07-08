@@ -4,11 +4,23 @@
         "source": "C:\\Users\\Sarthak\\.android\\build-cache\\e8090acd44aa45db944c95074569fd4c70bd700a\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
     },
     {
+        "merged": "C:\\Users\\Sarthak\\Documents\\AndroidProjects\\TourdeIndia\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Sarthak\\.android\\build-cache\\e8090acd44aa45db944c95074569fd4c70bd700a\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sarthak\\Documents\\AndroidProjects\\TourdeIndia\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Sarthak\\.android\\build-cache\\e8090acd44aa45db944c95074569fd4c70bd700a\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
         "merged": "C:\\Users\\Sarthak\\Documents\\Android Projects\\TourdeIndia\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\Sarthak\\.android\\build-cache\\e8090acd44aa45db944c95074569fd4c70bd700a\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "C:\\Users\\Sarthak\\Documents\\Android Projects\\TourdeIndia\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\Sarthak\\.android\\build-cache\\e8090acd44aa45db944c95074569fd4c70bd700a\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sarthak\\Documents\\AndroidProjects\\TourdeIndia\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\Sarthak\\.android\\build-cache\\e8090acd44aa45db944c95074569fd4c70bd700a\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
     }
 ]

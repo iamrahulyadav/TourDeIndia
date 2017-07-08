@@ -59,6 +59,7 @@ public class CityRecyclerAdapter extends RecyclerView.Adapter<CityViewHolder> {
         //----------------------------------------------------------------------------------------
         // itemView click listeners
         //----------------------------------------------------------------------------------------
+        // single click listener
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -67,6 +68,7 @@ public class CityRecyclerAdapter extends RecyclerView.Adapter<CityViewHolder> {
             }
         });
 
+        // long click listener
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
