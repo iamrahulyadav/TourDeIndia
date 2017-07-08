@@ -1,0 +1,12 @@
+<resources>
+    <!-- Padding dimens -->
+    <dimen name="no_padding">0dp</dimen>
+    <dimen name="text_padding">7dp</dimen>
+
+    <!-- Dimens for floating action button animation -->
+    <dimen name="standard_55">55dp</dimen>
+    <dimen name="standard_105">105dp</dimen>
+
+    <dimen name="tabIndicatorHeight">2dp</dimen>
+    <dimen name="gallery_image_size">270dp</dimen>
+</resources>

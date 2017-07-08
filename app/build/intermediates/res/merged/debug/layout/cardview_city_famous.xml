@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_famousImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gallery_image_size"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="@dimen/text_padding"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/location"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/image_famousImage"
+            android:layout_marginBottom="-25dp"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:id="@+id/text_famousTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_famousImage"
+            android:textStyle="bold"
+            android:paddingStart="@dimen/text_padding"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/text_famousDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_famousTitle"
+            android:paddingBottom="15dp"
+            android:textColor="@color/secondaryTextColor"
+            android:paddingLeft="@dimen/text_padding"
+            android:paddingRight="@dimen/text_padding"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+</LinearLayout>

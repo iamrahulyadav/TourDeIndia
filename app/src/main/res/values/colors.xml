@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic app colors -->
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTransparent">#000000</color>
+    <color name="colorPrimaryLight">#B3E5FC</color>
+
+    <!-- App text colors -->
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+
+    <!-- Other colors -->
+    <color name="splashScreenBackground">#FFF</color>
+    <color name="cityCardviewBackground">#550288D1</color>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- These themes require API level greater than 21 -->
+
+    <!-- No action bar theme. -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Login Screen theme -->
+    <style name="AppTheme.FullScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:colorPrimaryDark">@android:color/white</item>
+    </style>
+
+</resources>

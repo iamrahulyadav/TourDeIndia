@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="famousPlaces">
+        <item>"Sabarmati Ashram"</item>
+        <item>"ISKCON Temple"</item>
+        <item>"Marina Beach"</item>
+        <item>"Rashtrapati Bhawan"</item>
+        <item>"Char Minar"</item>
+        <item>"Howrah Bridge"</item>
+        <item>"Bara Imambara"</item>
+        <item>"Marine Drive"</item>
+        <item>"Teen Darwaza"</item>
+        <item>"Lal Bagh"</item>
+        <item>"Kapaleeshwarar Temple"</item>
+        <item>"Red Fort"</item>
+        <item>"Birla Mandir"</item>
+        <item>"Eden Gardens"</item>
+        <item>"Ambedkar Memorial Park"</item>
+        <item>"Gateway of India"</item>
+        <item>"Kankaria Lake"</item>
+        <item>"Bangalore Palace"</item>
+        <item>"St. Thomas Cathedral Basilica"</item>
+        <item>"India Gate"</item>
+        <item>"Golkonda"</item>
+        <item>"Victoria Memorial"</item>
+        <item>"Chattar Manzil"</item>
+        <item>"Chhatrapati Shivaji Terminus"</item>
+    </array>
+</resources>
