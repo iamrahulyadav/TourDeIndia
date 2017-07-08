@@ -52,14 +52,14 @@ public class FamousRecyclerAdapter extends RecyclerView.Adapter<FamousViewHolder
             @Override
             public void onClick(View view) {
 
-                // launch MapsActivity
+                // call intent to MapsActivity
                 Intent locationIntent = new Intent(mContext, MapsActivity.class);
 
                 // pass city index and cardview position to retrieve famous place
                 locationIntent.putExtra(Constants.KEY_CITY_INDEX, cityIndex);
                 locationIntent.putExtra(Constants.KEY_CARD_POSITION, holder.getAdapterPosition());
 
-                // start activity
+                // start MapsActivity
                 mContext.startActivity(locationIntent);
             }
         });
