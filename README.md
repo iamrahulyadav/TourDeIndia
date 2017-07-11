@@ -5,7 +5,7 @@ TourDeIndia is a tourist info app which shows a list of various Indian cities al
 
 As an option, user can also add his/her own city to the app along with city description and an image from either the camera or the internal storage. These cities are stored in database and and can be accessed by the user each time user opens the app. User can also delete newly added cities, however, default cities in the app cannot be deleted.
 
-Since, this is a test app, all the city images are stored in internal storage. Here is the drive lnk of the folder. This folder needs to be copied to internal storage.
+Since, this is a test app, all the city images are stored in internal storage. Here is the drive lnk of the folder. This folder needs to be copied to internal storage. Ensure the path of the folder is /storage/emulated/0/TourDeIndia. Else change the value of INTERNAL_STORAGE_DATA_FOLDER in .utils.Constants in the project as the path of the folder.
 
 Drive link: https://drive.google.com/file/d/0B8LVIbZOyX3uQ3dGTUJEaTZmR28/view?usp=sharing
 
