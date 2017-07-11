@@ -117,6 +117,7 @@ public class HomeScreenActivity extends AppCompatActivity implements View.OnClic
                 try {
 
                     Bitmap cityBitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), data.getData());
+                    // save image in internal storage with name same as city name and load city in recycler view
                     saveCityImage(cityBitmap);
                 } catch (IOException e) {
 
@@ -126,6 +127,7 @@ public class HomeScreenActivity extends AppCompatActivity implements View.OnClic
             } else if (requestCode == Constants.CAMERA_REQUEST) {
 
                 Bitmap cityBitmap = (Bitmap) data.getExtras().get("data");
+                // save image in internal storage with name same as city name and load city in recycler view
                 saveCityImage(cityBitmap);
             }
         }
