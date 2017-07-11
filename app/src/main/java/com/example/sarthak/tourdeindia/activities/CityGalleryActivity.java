@@ -19,6 +19,7 @@ public class CityGalleryActivity extends AppCompatActivity {
         int cityIndex = getIntent().getIntExtra(Constants.KEY_CITY_INDEX, -1);
 
         // create fragment pager adapter that will call SwipeFragment to display city images
+        // cityIndex is used to identify city whose images are to be displayed
         ImagePagerAdapter imagePagerAdapter = new ImagePagerAdapter(getSupportFragmentManager(), cityIndex);
 
         // pass fragment pager adapter to view pager
